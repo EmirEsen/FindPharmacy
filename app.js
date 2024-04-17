@@ -42,6 +42,6 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("GET", `https://api.collectapi.com/health/dutyPharmacy?ilce=${ilce}&il=${il}`);
 xhr.setRequestHeader("content-type", "application/json");
-xhr.setRequestHeader("authorization", "apikey 61TPvxVJelurTdRIcKt2G0:78zGb0eR1Cc0QmHJ89eytf");
+xhr.setRequestHeader("authorization", "");
 
 xhr.send();
